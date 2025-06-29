@@ -21,11 +21,11 @@ To predict weekly sales at the department level for each Walmart store, while un
 
 ---
 
-## 🤖 Models Used
+## Models Used
 
-* 🔹 **Linear Regression**: Used as a baseline model
-* 🔹 **Random Forest Regressor**: Final model with improved performance and non-linear capabilities
-* 🔹 Evaluation metrics: R² score, MAE, MSE
+* **Linear Regression**: Used as a baseline model
+* **Random Forest Regressor**: Final model with improved performance and non-linear capabilities
+* Evaluation metrics: R² score, MAE, MSE
 
 ---
 
@@ -35,17 +35,20 @@ To predict weekly sales at the department level for each Walmart store, while un
 
   * R² Score: 0.974
   * MAE: \~14,560
+  * MSE: 473169494
 * **Random Forest**:
 
-  * 
+  * R² Score: 0.974
+  * MAE: \~1,445
+  * MSE : 13446201.3
 
+  Random Forest model was considered best because it's MAE is less than MAE produced by linear regression model and also linear regression model failed to capture non-linear patterns but Random Forest Regressor model did excellent job and provided accurate and reliable results.
 ---
 
-## 📂 Final Deliverables
+## Final Deliverables
 
 * Cleaned and merged dataset
 * Feature importance analysis
-* Residual plots for model diagnostics
 * Final predictions for `test.csv`
 * Well-documented Jupyter Notebooks
 
@@ -53,25 +56,11 @@ To predict weekly sales at the department level for each Walmart store, while un
 
 ## 🧪 Tools & Technologies
 
-* Python (Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib)
+* Python (Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib, scipy)
 * Jupyter Notebook
-* Git & GitHub
 
 ---
 
-## 🚀 How to Run
-
-1. Clone the repo
-2. Install dependencies
-3. Run `main.ipynb` or `modeling.ipynb` to reproduce the analysis
-4. Use `submission.csv` for final predictions
+All of the datasets are given and all of the jupyter notebooks are also provided to check the code and report of analysis has also been provided.
 
 ---
-
-## 📜 License
-
-This project is for educational and research purposes only. Data provided by Walmart via Kaggle.
-
----
-
-Let me know if you’d like to include a **demo image**, **badges**, or **link to your notebook**, and I’ll help you enhance it further!
